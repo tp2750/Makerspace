@@ -3,6 +3,7 @@
 ## Arduino Background
 
 ## Exercise 1: Install Arduino IDE
+
 <details>
 	<summary>Hints</summary>
 Here's a step-by-step guide with screenshots: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
@@ -11,7 +12,9 @@ The official Arduino website is https://www.arduino.cc/
 - Install according to operating system
 - Consider giving them a donation
 </details>
+
 ## Exercise 2: Install ESP32 board definition
+
 <details>
 	<summary>Hints</summary>
 The ESP32 support is hosted here: https://docs.espressif.com/projects/arduino-esp32/en/latest/index.html. [Installation instructions](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
@@ -33,7 +36,9 @@ The ESP32 support is hosted here: https://docs.espressif.com/projects/arduino-es
 ```
   Check that it worked with `id`. It should include `dialout` in the list.
 </details>
+
 ## Exercise 3: Write a simple program
+
 <details>
 	<summary>Hints</summary>
 - Test an example: File -> Examples -> 01.Basics -> BareMinimum
@@ -58,7 +63,9 @@ void loop() {
   Eg https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino
   My chip is "ESP32-D0WDQ6 Rev 1"
 </details>
+
 ## Exercise 4: LED on breadboard
+
 <details>
 	<summary>Hints</summary>
 See example here: https://microcontrollerslab.com/gpio-pins-esp32-led-blinking-example/
@@ -69,17 +76,22 @@ Datasheet here: https://www.espressif.com/sites/default/files/documentation/esp3
   Avoid: GPIO34-39 (only digital input)
 - Check pinout here:  https://microcontrollerslab.com/esp32-pinout-use-gpio-pins/
 </details>
+
 ## Exercise 5: Add BME280 temperature sensor
+
 <details>
 	<summary>Hints</summary>
 - See https://randomnerdtutorials.com/esp32-bme280-arduino-ide-pressure-temperature-humidity/
 - Add borad definition
 - Connect via i2c interface (gpio21, gpio22 according to https://microcontrollerslab.com/esp32-pinout-use-gpio-pins/)
 </details>
+
 ## Exeercise 6: Display temperature with LED
+
 <details>
 	<summary>Hints</summary>
 - write program to turn on LED when temperature is above threshold
 </details>
+
 ## Extra Exercise Stream temperature over MQTT to Grafana dashboard on Raspberry pi
 
