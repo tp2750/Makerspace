@@ -28,7 +28,7 @@
  - Search for esp32
  - Click install (version 2.0.0 currently)
  - Wait for the board definition to install
- - Now select the board: ESP32 Dev module
+ - Now select the board: ESP32 Dev module (or Node32s?)
  - Restart the Arduino IDE
 * On Ubuntu you need to add yourself to `dialout` group and install `pyserial`.
   Reboot after this!
