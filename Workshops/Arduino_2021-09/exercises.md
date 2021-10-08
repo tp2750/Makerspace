@@ -61,12 +61,15 @@ void loop() {
 }
 ```
 
+* Select the correct COM port. In my test on windows it was COM5.
 * Open the Monitor `Ctrl-Shift-M` (Tools -> Serial Monitor)
 * Set to 115200 baud
 * ESP32 specific examples: https://github.com/espressif/arduino-esp32/tree/master/libraries
   Eg https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino
   My chip is "ESP32-D0WDQ6 Rev 1"
+* Note: You need to hold down the "Boot" button on the ESP32 while uploading.
 </details>
+
 
 ## Exercise 4: LED on breadboard
 
