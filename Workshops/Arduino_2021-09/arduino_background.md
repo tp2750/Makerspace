@@ -59,6 +59,10 @@ Download from : https://www.arduino.cc/en/software
 * Compile the program
 * Upload program to board
 * Display serial monitor
+* Examples folder
+  - Standard examples (LED, web-server etc)
+  - Board specific examples (eg ESP32cam)
+  - Library examples (eg library for morse code)
 
 # Aduino Boards
 
