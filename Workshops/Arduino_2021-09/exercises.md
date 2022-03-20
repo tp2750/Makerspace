@@ -12,6 +12,9 @@
 * The official Arduino website is https://www.arduino.cc/
 
   - Download the IDE from https://www.arduino.cc/en/software
+    - Arduino IDE 1.8.19: The standard Processing like IDE (most tutorials refer to this)
+    - Arduino IDE 2.0 RC: The modern VSCode-like IDE (
+    - There is also a web-based editor: https://create.arduino.cc/editor
   - Install according to operating system
   - Consider giving them a donation
 </details>
@@ -88,6 +91,8 @@ void loop() {
 
 - Avoid: GPIO34-39 (only digital input)
   - Check pinout here:  https://microcontrollerslab.com/esp32-pinout-use-gpio-pins/
+
+* To blink the on-board LED: Use `int LED_BUILTIN = 2;`
 
 </details>
 
