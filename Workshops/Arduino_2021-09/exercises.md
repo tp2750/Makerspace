@@ -2,6 +2,8 @@
 
 ## Arduino Background
 
+[Some background](arduino_background.md)
+
 ## Exercise 1: Install Arduino IDE
 
 <details>
