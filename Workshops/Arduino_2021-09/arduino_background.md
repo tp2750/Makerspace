@@ -118,6 +118,10 @@ Arduino was started in 2005 at the Interaction Design Institute Ivrea (IDII) in 
 
 The idea was to make microcontroller programming accessible to everybody.
 
+They write on their [website](https://www.arduino.cc/en/about#our-mission--vision)
+
+> Arduino’s mission is to enable anyone to enhance their lives through accessible electronics and digital technologies. There was once a barrier between the electronics, design, and programming world and the rest of the world. Arduino has broken down that barrier. 
+
 # Sources
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Arduino)
