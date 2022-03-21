@@ -3,11 +3,11 @@ TAPO. 2022-03-20.
 
 # Many meanings of "Arduino"
 
-* The company
-* The language
+* The Company
+* The Language
 * The IDE
-* The boards and clones
-* The idea
+* The Boards and clones
+* The Idea
 
 # The Arduino Company
 https://www.arduino.cc/
@@ -112,6 +112,11 @@ https://www.adafruit.com/
 
 Makes lots of sensors available for use with Arduino-compatible boards.
 
+# The Arduino Idea
+
+Arduino was started in 2005 at the Interaction Design Institute Ivrea (IDII) in Ivrea, Italy, by Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino, and David Mellis.
+
+The idea was to make microcontroller programming accessible to everybody.
 
 # Sources
 
