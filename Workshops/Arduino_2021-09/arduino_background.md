@@ -95,6 +95,7 @@ Popular alternatives ar emade by Chinese Espressif:
   - 80k user-data RAM
 * ESP32 (5€ w usb, wifi, bluetooth): Xtensa dual-core 32-bit LX6 microprocessor @ 160 MHz
   - 320k RAM
+  - input is 5V (usb), but all pins are 3.3V
 
 ![ESP8266](img/esp8266.png)
 ![ESP32](img/esp32.png)
