@@ -12,7 +12,7 @@ TAPO. 2022-03-20.
 # The Arduino Company
 https://www.arduino.cc/
 
-* Produces and sells arduino boards
+* Produces and sells Arduino boards
 * Develops the Arduino IDE
 * Books, training material about Arduino.
 
@@ -23,6 +23,7 @@ Make sure to support them!
 
 Based on [Processing](https://processing.org/) a language for learning to code though visual arts.
 A program is called a "Sketch" and contains a `setup()` function run once and a `loop()` function that is repeated perpetually after the setup.
+The syntax is C++.
 
 ```arduino
 # define LED_PIN 13                  // Pin number attached to LED.
@@ -48,17 +49,22 @@ Download from : https://www.arduino.cc/en/software
 
 - Arduino IDE 1.8.19 Based on Processing IDE
 	- https://github.com/arduino/Arduino/
-- Arduino IDE 2.0 RC Based on [Theia](https://theia-ide.org/) written in [Electron](https://www.electronjs.org/). Looks like VScode.
+- Arduino IDE 2.0 RC Based on [Theia](https://theia-ide.org/) written in [Electron](https://www.electronjs.org/). Looks like Atom, VSCode etc.
     - https://github.com/arduino/arduino-ide
 - Arduino Web editor: https://create.arduino.cc/editor/
 
-## Features
+## Features of the IDE
+
+Tasks supported by the IDE:
 
 * Manage board definitions
 * Manage libraries
 * Compile the program
 * Upload program to board
 * Display serial monitor
+
+It also has:
+
 * Examples folder
   - Standard examples (LED, web-server etc)
   - Board specific examples (eg ESP32cam)
