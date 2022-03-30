@@ -100,9 +100,10 @@ void loop() {
 <details>
 	<summary>Hints</summary>
 
-- Tutorial: https://www.electronicshub.org/esp32-dht11-tutorial/
-
+- Tutorial: https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/
+	
 </details>
+
 ## Exercise 5.a: Add BME280 temperature sensor
 
 <details>
