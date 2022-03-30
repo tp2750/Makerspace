@@ -26,7 +26,9 @@ A program is called a "Sketch" and contains a `setup()` function run once and a 
 The syntax is C++.
 
 ```arduino
-# define LED_PIN 13                  // Pin number attached to LED.
+#define LED_PIN 13                  // Pin number attached to LED.
+// or int LED_PIN = 13;
+// or const int LED_PIN = 13;
 
 void setup() {
     pinMode(LED_PIN, OUTPUT);       // Configure pin 13 to be a digital output.
@@ -52,6 +54,7 @@ Download from : https://www.arduino.cc/en/software
 - Arduino IDE 2.0 RC Based on [Theia](https://theia-ide.org/) written in [Electron](https://www.electronjs.org/). Looks like Atom, VSCode etc.
     - https://github.com/arduino/arduino-ide
 - Arduino Web editor: https://create.arduino.cc/editor/
+- VSCode plugin: https://github.com/Microsoft/vscode-arduino
 
 ## Features of the IDE
 
@@ -122,6 +125,24 @@ They write on their [website](https://www.arduino.cc/en/about#our-mission--visio
 
 > Arduino’s mission is to enable anyone to enhance their lives through accessible electronics and digital technologies. There was once a barrier between the electronics, design, and programming world and the rest of the world. Arduino has broken down that barrier. 
 
+A quite from "Getting Started with Arduino":
+
+> The Arduino philosophy is based on making designs rather than talking about them.
+
+# Troubleshooting
+
+* If the output to the serial monitor is gibberish: 
+
+-  Check that the baud-rate you set in the sketch (with `Serial.begin()`) matches what is set in the IDE (Tools -> Serial Monitor).
+
+* If the sketch will not upload
+
+  - Try an other cable. Some micro-UBS cables are only for charging.
+  - Change the COM-port in the IDE (Tools -> Port)
+  - Try changing the upload baud-rate (possible for some boards, eg ESP32).
+  - ESP32: Hold down the "boot" button on the board while uploading.
+  
+  
 # Sources
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Arduino)
