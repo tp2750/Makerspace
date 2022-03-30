@@ -72,6 +72,12 @@ It also has:
   - Standard examples (LED, web-server etc)
   - Board specific examples (eg ESP32cam)
   - Library examples (eg library for morse code)
+  
+## IDE tutorials
+
+- Version 1: https://docs.arduino.cc/software/ide-v1/
+  - https://docs.arduino.cc/software/ide-v1/tutorials/Environment
+- Version 2: https://docs.arduino.cc/software/ide-v2
 
 # Aduino Boards
 
@@ -86,6 +92,14 @@ Most original Arduino boards use Amtel 8-bit ATmega microcontrollers:
 - Arduino Due (35€): ARM Cortex-M3
 
 ![Uno](img/uno.png)
+
+Board features
+
+* Digital IO pins
+* Analogue In pins
+* Analogue Out pins
+* Power from USB
+* Programmable over USB
 
 ## Arduino derivatives
 
