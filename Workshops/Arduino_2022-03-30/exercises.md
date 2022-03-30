@@ -96,8 +96,13 @@ void loop() {
 
 </details>
 
-## Exercise 5: Add DHT22 temperature sensor
+## Exercise 5: Add DHT11 temperature sensor
+<details>
+	<summary>Hints</summary>
 
+- Tutorial: https://www.electronicshub.org/esp32-dht11-tutorial/
+
+</details>
 ## Exercise 5.a: Add BME280 temperature sensor
 
 <details>
