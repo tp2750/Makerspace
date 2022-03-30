@@ -13,7 +13,7 @@
 
   - Download the IDE from https://www.arduino.cc/en/software
     - Arduino IDE 1.8.19: The standard Processing like IDE (most tutorials refer to this)
-    - Arduino IDE 2.0 RC: The modern VSCode-like IDE (
+    - Arduino IDE 2.0 RC: The modern VSCode-like IDE (uses the same libraries and board-definitions)
     - There is also a web-based editor: https://create.arduino.cc/editor
   - Install according to operating system
   - Consider giving them a donation
