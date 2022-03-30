@@ -96,7 +96,9 @@ void loop() {
 
 </details>
 
-## Exercise 5: Add BME280 temperature sensor
+## Exercise 5: Add DHT22 temperature sensor
+
+## Exercise 5.a: Add BME280 temperature sensor
 
 <details>
 	<summary>Hints</summary>
