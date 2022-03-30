@@ -146,11 +146,8 @@ A quite from "Getting Started with Arduino":
 # Troubleshooting
 
 * If the output to the serial monitor is gibberish: 
-
--  Check that the baud-rate you set in the sketch (with `Serial.begin()`) matches what is set in the IDE (Tools -> Serial Monitor).
-
+  -  Check that the baud-rate you set in the sketch (with `Serial.begin()`) matches what is set in the IDE (Tools -> Serial Monitor).
 * If the sketch will not upload
-
   - Try an other cable. Some micro-UBS cables are only for charging.
   - Change the COM-port in the IDE (Tools -> Port)
   - Try changing the upload baud-rate (possible for some boards, eg ESP32).
